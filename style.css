@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(36, 36, 139), rgb(15, 15, 134));
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.body-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.body-card img {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom: 2px solid white;
+    /* padding-bottom: 0px; */
+    margin-bottom: 20px;
+}
+
+.conten {
+    padding: 5px 20px;
+    margin: 50px 450px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    background: linear-gradient(blue, red);
+    box-shadow: -30px 30px 30px 10px rgb(234, 255, 0);
+}
+
+.conten input {
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.conten textarea {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.conten button {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: white;
+    background-color: blue;
+    /* border: none; */
+    border-radius: 5px;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: linear-gradient(rgb(243, 243, 243), rgb(16, 17, 39)) ;
+}
+
+.card h3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    /* padding-top: 20px; */
+}
+
+.card p {
+    color: white;
+    text-align: center;
+
+}
